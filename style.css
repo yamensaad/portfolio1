@@ -13,7 +13,7 @@ html {
   padding-top: 12px;
   transform: skewY(-10deg);
   background-color: yellow;
-  height: 100px;
+  height: 200px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -28,7 +28,30 @@ html {
   align-items: center;
   justify-content: center margin-left 0px 0px 0px 30px;
 }
+.section3 {
+  transform: skewY(-11deg);
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center margin-left 0px 0px 0px 30px;
+}
 
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+  margin-left: 4px;
+  margin-top: 5px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
 .top {
   background-image: url("images/book.jpg");
 }

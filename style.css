@@ -1,29 +1,45 @@
-#skewed-section > *{
-    transform:skewY(4deg);
+#skewed-section > * {
+  transform: skewY(4deg);
 }
-body, html {
-    background-image: url("images/background.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+body,
+html {
+  background-image: url("images/background.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 .section {
-    padding-top: 12px;
-    transform:skewY(-10deg); 
-    background-color:yellow; 
-    height:100px; 
-    width:100%;
-    display:flex;
-    align-items:center; 
-    justify-content:center
+  padding-top: 12px;
+  transform: skewY(-10deg);
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section2 {
-    transform:skewY(-10deg); 
-    background-color:yellow; 
-    height:100px; 
-    width:100%;
-    display:flex;
-    align-items:center; 
-    justify-content:center
+  transform: skewY(-10deg);
+  background-color: yellow;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center margin-left 0px 0px 0px 30px;
+}
+
+.top {
+  background-image: url("images/book.jpg");
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: yellow;
 }
